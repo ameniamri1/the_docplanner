@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    padding:0;
+    fonst-family:Arial,sans-serif
+  }
+  
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 20px
+  }
+  .logo img{
+    width: 268px;
+    height: 33px;
+    padding-left: 120px;
+  }
+  .nav-links{
+    list-style:none;
+    display:flex;
+    padding-right: 120px;
+    
+  }
+  .nav-links a{
+    color:gray;
+    text-decoration:none;
+    font-size:16px
+  }
+  .nav-links li{
+    margin-right:20px
+  }
+  
+  .nav-links a:hover{
+    color: mediumseagreen;
+  }
+  .lead img{
+    width: 40px;
+    height: 40px;
+   padding-inline: 50%;
+   padding-top: 90px;
+  }
+  
+  
+
+    h1{
+        color: #00b39b;
+        font-size: 3.29rem;
+        font-family: Work Sans,Arial,sans-serif;        
+        font-weight: 300;
+        letter-spacing: -0.3px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .paragraphs {
+        color: #747474;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        
+    padding: 30px 300px;
+
+    }    
+    #pargh1{
+        padding-right: 30px;
+    }
+    .forsection {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        padding: 1.375em 1.25em 0;
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 3.75rem auto 2.5rem;
+        color: #fff;
+        font-family: Work Sans, Arial, sans-serif;
+        max-width: 1015px;
+        padding: 0 20px;
+        position: relative;
+    }
+    .for1 {
+        background-color: #00ccb1;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 2em 0;
+        justify-content: space-between;
+        height: 345px;
+    }
+    .for2 {
+        background-color: #3d83df;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 2em 0;
+        justify-content: space-between;
+        height: 345px;}
+        .for3 {
+            background-color: #1b2734;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 2em 2em 0;
+            justify-content: space-between;
+            height: 345px;
+        }
+        .for1 select {
+            background-color: #00ccb1;
+            border: none;
+            text-decoration: underline;
+            margin-bottom: 30px;
+            font-style: bold;
+        }
+        .for2 select {
+            background-color: #3d83df;
+            border: none;
+            text-decoration: underline;
+            margin-bottom: 30px;
+            font-style: bold;
+        }
+        .for3 select {
+    background-color: #1b2734 ;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
